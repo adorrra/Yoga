@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 14px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+}
+header img {
+    width: 70px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-right: 630px;
+    margin-left: 115px;
+    
+}
+.menu  {
+    list-style: none;
+    display: flex;
+    justify-content: center;   
+}
+.menu li {
+    margin-right: 30px;
+}
+.menu a {
+    color:dimgray;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: blue;
+}
